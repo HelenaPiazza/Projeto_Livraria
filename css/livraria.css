@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    /*padding: 0;*/
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e9d4ac;
+}
+
+/****HEADER*****/
+#topo{
+    width: 80%;
+    margin: 0 auto;
+    height: 100px;
+    border-radius: 100px;
+    background-color: aliceblue;
+    text-align: center;
+    /*definir "direita, esquerda, centro" da palavra*/ 
+}
+#topo h1 {
+    color: darkred;    
+}
+
+
+#menu {
+    border: 2px solid #e9d4ac;
+    width: 50%;
+    margin: 0 auto;
+    height: 50px;
+    border-radius: 30px;
+    background-color: aliceblue;
+    text-align: center;
+} 
+
+#menu ul li {
+    display: inline-block;
+    list-style: none;
+    width: 100px;
+    background-color: #e9d4ac;
+    border-radius: 30px;
+}
+
+#menu ul {
+    text-align: center;
+    margin-top: 16px;
+}
+
+/****MAIN****/
+.destaque h2 {
+    color: blue;
+}
+
+.sobre h3 {
+    color: rgb(201, 15, 15);
+}
+
+/****NAV****/
+a {
+    color: rgb(175, 66, 66);  
+}
+
+/*#rodape {
+    border: 2px solid #e9d4ac;
+    width: 50%;
+    margin: 0 auto;
+    height: 50px;
+    border-radius: 30px;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+#rodape ul li {
+    display: inline-block;
+    list-style: none;
+    width: 100px;
+    background-color: #e9d4ac;
+    border-radius: 30px;
+}
+
+#rodape {
+    text-align: center;
+    margin-top: 16px;
+}*/
