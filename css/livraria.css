@@ -9,17 +9,18 @@ body {
 }
 
 /****HEADER*****/
-#topo{
+#topo {
     width: 80%;
     margin: 0 auto;
     height: 100px;
     border-radius: 100px;
-    background-color: aliceblue;
+    background-color: rgb(250, 250, 250);
     text-align: center;
-    /*definir "direita, esquerda, centro" da palavra*/ 
+    /*definir "direita, esquerda, centro" da palavra*/
 }
+
 #topo h1 {
-    color: darkred;    
+    color: darkred;
 }
 
 
@@ -29,47 +30,80 @@ body {
     margin: 0 auto;
     height: 50px;
     border-radius: 30px;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     text-align: center;
-} 
+}
 
 #menu ul li {
     display: inline-block;
     list-style: none;
     width: 100px;
+    /*largura do botão*/
     background-color: #e9d4ac;
     border-radius: 30px;
+    /*height: 40px; altura do botão
+    padding: 10px 0;*/
 }
 
 #menu ul {
     text-align: center;
-    margin-top: 16px;
+    margin-top: 15px;
+}
+
+#menu ul a:link {
+    color: rgb(175, 66, 66);
+}
+
+#menu ul li:hover {
+    color: rgb(255, 255, 255);
+    background-color: #b4a384;
 }
 
 /****MAIN****/
+.destaque {
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    margin: 5px auto;
+    border-radius: 30px;
+}
+
 .destaque h2 {
     color: blue;
+}
+
+.destaque ul {
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+.destaque ul li {
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    align-items: center;
+}
+
+.destaque ul li img:link{
+    border-radius: 50%;
+    height: 230px;
+    width: 150px;
+}
+.destaque ul li img:hover {
+    border-radius: 100%;
 }
 
 .sobre h3 {
     color: rgb(201, 15, 15);
 }
 
-/****NAV****/
-a {
-    color: rgb(175, 66, 66);  
-}
-
 /*#rodape {
-    border: 2px solid #e9d4ac;
-    width: 50%;
-    margin: 0 auto;
-    height: 50px;
-    border-radius: 30px;
-    background-color: aliceblue;
-    text-align: center;
+    position: fixed;
+    top: 65px;
+    left: 80%;
+    color: rgb(175, 66, 66);
 }
-
+*/
 #rodape ul li {
     display: inline-block;
     list-style: none;
@@ -81,4 +115,17 @@ a {
 #rodape {
     text-align: center;
     margin-top: 16px;
-}*/
+}
+
+#rodape ul a:link {
+    color: rgb(175, 66, 66);
+}
+
+#rodape ul li:hover {
+    color: rgb(255, 255, 255);
+    background-color: #b4a384;
+}
+
+p {
+    color: rgb(53, 21, 21);
+}
